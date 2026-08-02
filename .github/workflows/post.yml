@@ -1,0 +1,66 @@
+name: Promote an SSOL article
+
+on:
+  schedule:
+    # Every 3 days at 09:00 UTC. Cron has no "every 3 days" across month ends,
+    # so day-of-month steps are used; the 31st is skipped, which only means an
+    # occasional 1-day gap.
+    - cron: "0 9 1,4,7,10,13,16,19,22,25,28 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Print the post without publishing"
+        type: boolean
+        default: false
+      key:
+        description: "Force a specific Zotero item key (optional)"
+        type: string
+        required: false
+
+concurrency:
+  group: ssol-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write          # needed to commit the updated state file
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Post
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          MASTODON_API_BASE: ${{ secrets.MASTODON_API_BASE }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+          LANDING_URL: ${{ vars.LANDING_URL || 'https://igelsociety.org/ssol-archive/' }}
+          ZOTERO_GROUP_ID: ${{ vars.ZOTERO_GROUP_ID || '6608170' }}
+          # Passed as env, never interpolated into the shell command, so a
+          # crafted input cannot inject commands.
+          INPUT_DRY_RUN: ${{ inputs.dry_run }}
+          INPUT_KEY: ${{ inputs.key }}
+        run: |
+          args=()
+          [[ "$INPUT_DRY_RUN" == "true" ]] && args+=(--dry-run)
+          [[ -n "$INPUT_KEY" ]] && args+=(--key "$INPUT_KEY")
+          python -m bot.main "${args[@]}"
+
+      - name: Commit updated state
+        if: ${{ !inputs.dry_run }}
+        run: |
+          if [[ -n "$(git status --porcelain state/)" ]]; then
+            git config user.name  "igel-ssol-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add state/
+            git commit -m "chore: record posted article [skip ci]"
+            git push
+          else
+            echo "No state change to commit."
+          fi
