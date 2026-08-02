@@ -29,8 +29,8 @@ landing page on igelsociety.org that explains how to access the full text.
 |---|---|
 | `BLUESKY_HANDLE` (required) | `igelsociety.bsky.social` |
 | `BLUESKY_APP_PASSWORD` (required) | `xxxx-xxxx-xxxx-xxxx` |
-| `MASTODON_API_BASE` (Option B only) | `https://mastodon.social` |
-| `MASTODON_TOKEN` (Option B only) | the access token |
+| `MASTODON_API_BASE` (optional) | `https://mastodon.social` |
+| `MASTODON_TOKEN` (optional) | the access token |
 
 Optional *Variables* (not secrets): `LANDING_URL`, `ZOTERO_GROUP_ID`.
 
