@@ -32,7 +32,7 @@ landing page on igelsociety.org that explains how to access the full text.
 | `MASTODON_API_BASE` (optional) | `https://mastodon.social` |
 | `MASTODON_TOKEN` (optional) | the access token |
 
-Optional *Variables* (not secrets): `LANDING_URL`, `ZOTERO_GROUP_ID`.
+Optional *Variables* (not secrets): `LANDING_URL`, `ZOTERO_GROUP_ID`, and `BLUESKY_PDS` (the account's server, default `https://bsky.social`; set it, e.g. to `https://eurosky.social`, if your account is hosted on another AT Protocol server — logging in at the wrong server gives "Invalid identifier or password").
 
 The bot posts to whichever platform is configured — if you only add the Bluesky
 secrets, it posts only to Bluesky.

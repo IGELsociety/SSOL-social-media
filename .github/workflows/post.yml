@@ -40,6 +40,7 @@ jobs:
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           MASTODON_API_BASE: ${{ secrets.MASTODON_API_BASE }}
           MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+          BLUESKY_PDS: ${{ vars.BLUESKY_PDS || 'https://bsky.social' }}
           LANDING_URL: ${{ vars.LANDING_URL || 'https://igelsociety.org/ssol-archive/' }}
           ZOTERO_GROUP_ID: ${{ vars.ZOTERO_GROUP_ID || '6608170' }}
           # Passed as env, never interpolated into the shell command, so a
