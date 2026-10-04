@@ -1,5 +1,17 @@
 {
   "cycle": 1,
-  "posted": [],
-  "history": []
+  "posted": [
+    "FP6DM4MV"
+  ],
+  "history": [
+    {
+      "cycle": 1,
+      "key": "FP6DM4MV",
+      "title": "Toward consilience, not literary Darwinism",
+      "doi": "10.1075/ssol.3.1.04got",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mx23lywyu72d"
+      }
+    }
+  ]
 }
