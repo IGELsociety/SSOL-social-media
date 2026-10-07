@@ -1,7 +1,8 @@
 {
   "cycle": 1,
   "posted": [
-    "FP6DM4MV"
+    "FP6DM4MV",
+    "CU2P9KYM"
   ],
   "history": [
     {
@@ -11,6 +12,15 @@
       "doi": "10.1075/ssol.3.1.04got",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mx23lywyu72d"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "CU2P9KYM",
+      "title": "Lifespan development in the academy of American poets",
+      "doi": "10.1075/ssol.5.1.04tho",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mxcdt33yd22f"
       }
     }
   ]
