@@ -2,7 +2,8 @@
   "cycle": 1,
   "posted": [
     "FP6DM4MV",
-    "CU2P9KYM"
+    "CU2P9KYM",
+    "SFCDFTQX"
   ],
   "history": [
     {
@@ -21,6 +22,15 @@
       "doi": "10.1075/ssol.5.1.04tho",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mxcdt33yd22f"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "SFCDFTQX",
+      "title": "Reader expertise and the literary significance of small-scale textual features in prose fiction",
+      "doi": "10.1075/ssol.19006.par",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mxjrjsyemo2f"
       }
     }
   ]
