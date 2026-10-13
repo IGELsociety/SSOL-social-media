@@ -3,7 +3,8 @@
   "posted": [
     "FP6DM4MV",
     "CU2P9KYM",
-    "SFCDFTQX"
+    "SFCDFTQX",
+    "KU33PW9H"
   ],
   "history": [
     {
@@ -31,6 +32,15 @@
       "doi": "10.1075/ssol.19006.par",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mxjrjsyemo2f"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "KU33PW9H",
+      "title": "Utilizing empirical methods to investigate theoretical claims",
+      "doi": "10.1075/ssol.00012.edi",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mxriizdi3z2l"
       }
     }
   ]
