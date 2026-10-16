@@ -4,7 +4,8 @@
     "FP6DM4MV",
     "CU2P9KYM",
     "SFCDFTQX",
-    "KU33PW9H"
+    "KU33PW9H",
+    "GMPEH47Q"
   ],
   "history": [
     {
@@ -41,6 +42,15 @@
       "doi": "10.1075/ssol.00012.edi",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mxriizdi3z2l"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "GMPEH47Q",
+      "title": "Exploring the metanarrative of the traditional literary critical essay",
+      "doi": "10.1075/ssol.3.1.07gro",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mxypx34b5s2l"
       }
     }
   ]
