@@ -5,7 +5,8 @@
     "CU2P9KYM",
     "SFCDFTQX",
     "KU33PW9H",
-    "GMPEH47Q"
+    "GMPEH47Q",
+    "55UX9HF4"
   ],
   "history": [
     {
@@ -51,6 +52,15 @@
       "doi": "10.1075/ssol.3.1.07gro",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mxypx34b5s2l"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "55UX9HF4",
+      "title": "Extending multimodality in the Scientific Study of Literature",
+      "doi": "10.1075/ssol.00015.edi",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3myajpgifzk2h"
       }
     }
   ]
