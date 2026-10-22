@@ -6,7 +6,8 @@
     "SFCDFTQX",
     "KU33PW9H",
     "GMPEH47Q",
-    "55UX9HF4"
+    "55UX9HF4",
+    "N5HGHKKJ"
   ],
   "history": [
     {
@@ -61,6 +62,15 @@
       "doi": "10.1075/ssol.00015.edi",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3myajpgifzk2h"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "N5HGHKKJ",
+      "title": "Editorial: Widening the discussion of surface literary forms",
+      "doi": "10.1075/ssol.00009.han",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3myhuokifvi25"
       }
     }
   ]
