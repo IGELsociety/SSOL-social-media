@@ -7,7 +7,8 @@
     "KU33PW9H",
     "GMPEH47Q",
     "55UX9HF4",
-    "N5HGHKKJ"
+    "N5HGHKKJ",
+    "B6JJAZ4A"
   ],
   "history": [
     {
@@ -71,6 +72,15 @@
       "doi": "10.1075/ssol.00009.han",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3myhuokifvi25"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "B6JJAZ4A",
+      "title": "Transdisciplinary approaches to literature and empathy: A special issue",
+      "doi": "10.1075/ssol.6.1.02sop",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mypdfdyrsd2q"
       }
     }
   ]
