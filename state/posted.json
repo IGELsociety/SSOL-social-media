@@ -8,7 +8,8 @@
     "GMPEH47Q",
     "55UX9HF4",
     "N5HGHKKJ",
-    "B6JJAZ4A"
+    "B6JJAZ4A",
+    "A44A92QH"
   ],
   "history": [
     {
@@ -81,6 +82,15 @@
       "doi": "10.1075/ssol.6.1.02sop",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mypdfdyrsd2q"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "A44A92QH",
+      "title": "Beauty judgements of non-professional poetry: Regression analyses of authorial attribution, emotional response and perceived writing quality",
+      "doi": "10.1075/ssol.5.2.04han",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3myx47cwrch2j"
       }
     }
   ]
