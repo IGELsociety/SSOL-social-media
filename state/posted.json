@@ -9,7 +9,8 @@
     "55UX9HF4",
     "N5HGHKKJ",
     "B6JJAZ4A",
-    "A44A92QH"
+    "A44A92QH",
+    "U64442A6"
   ],
   "history": [
     {
@@ -91,6 +92,15 @@
       "doi": "10.1075/ssol.5.2.04han",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3myx47cwrch2j"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "U64442A6",
+      "title": "The attraction of tragic narrative: Catharsis and other motives",
+      "doi": "10.1075/ssol.3.2.03koo",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mzb6b4u6h42o"
       }
     }
   ]
