@@ -10,7 +10,8 @@
     "N5HGHKKJ",
     "B6JJAZ4A",
     "A44A92QH",
-    "U64442A6"
+    "U64442A6",
+    "5FLU3SKG"
   ],
   "history": [
     {
@@ -101,6 +102,15 @@
       "doi": "10.1075/ssol.3.2.03koo",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mzb6b4u6h42o"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "5FLU3SKG",
+      "title": "The implicit erasure of “literary experience” in empirical studies of literature: Comment on “The Scientific study of literary experience: Sampling the state of the art” by Arthur Jacobs",
+      "doi": "10.1075/ssol.5.2.02kui",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mzitafcgmm2w"
       }
     }
   ]
