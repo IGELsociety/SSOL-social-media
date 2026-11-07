@@ -11,7 +11,8 @@
     "B6JJAZ4A",
     "A44A92QH",
     "U64442A6",
-    "5FLU3SKG"
+    "5FLU3SKG",
+    "9CAK6VQU"
   ],
   "history": [
     {
@@ -111,6 +112,15 @@
       "doi": "10.1075/ssol.5.2.02kui",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mzitafcgmm2w"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "9CAK6VQU",
+      "title": "Drawing Kafka’s \\emphCastle: An experimental expansion of the theory of cognitive realism",
+      "doi": "10.1075/ssol.21002.tro",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mzq7wd2gj72d"
       }
     }
   ]
