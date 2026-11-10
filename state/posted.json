@@ -12,7 +12,8 @@
     "A44A92QH",
     "U64442A6",
     "5FLU3SKG",
-    "9CAK6VQU"
+    "9CAK6VQU",
+    "CR86R3YS"
   ],
   "history": [
     {
@@ -121,6 +122,15 @@
       "doi": "10.1075/ssol.21002.tro",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mzq7wd2gj72d"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "CR86R3YS",
+      "title": "Mind-reading motivation: Individual differences in desire to perspective-take influence narrative processing",
+      "doi": "10.1075/ssol.18011.car",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mzxvstnlui2b"
       }
     }
   ]
