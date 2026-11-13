@@ -13,7 +13,8 @@
     "U64442A6",
     "5FLU3SKG",
     "9CAK6VQU",
-    "CR86R3YS"
+    "CR86R3YS",
+    "A4RH4Y87"
   ],
   "history": [
     {
@@ -131,6 +132,15 @@
       "doi": "10.1075/ssol.18011.car",
       "targets": {
         "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3mzxvstnlui2b"
+      }
+    },
+    {
+      "cycle": 1,
+      "key": "A4RH4Y87",
+      "title": "Review of Małecki, Sorokowski, Pawłowski & Cieński (2019): Human minds and animal stories: How narratives make us care about other species",
+      "doi": "10.1075/ssol.00016.alb",
+      "targets": {
+        "bluesky": "at://did:plc:um2mitovy7mlvujejni2syo3/app.bsky.feed.post/3n27hpm62ah2w"
       }
     }
   ]
